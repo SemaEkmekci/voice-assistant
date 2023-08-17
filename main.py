@@ -9,6 +9,7 @@ import os
 r = sr.Recognizer()
 
 
+# Version-2
 def record(ask=False):
     with sr.Microphone() as source:
         if ask:
